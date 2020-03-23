@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="79.020329">
+<testcase classname="validation of automation practice page" name="01_Order T-Shirt and Verify in Order History" time="51.894933">
+<system-out><![CDATA[Given launch application....................................................passed
+And verify page title is "My Store".........................................passed
+Given login to the application using valid "userName" and "password"........passed
+And verify page title is "My account - My Store"............................passed
+When add tshirt to the cart.................................................passed
+Then complete the order process.............................................passed
+And verify in Order History.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validation of automation practice page" name="02_Update Personal Information Last Name in My Account" time="27.125396">
+<system-out><![CDATA[Given launch application....................................................passed
+And verify page title is "My Store".........................................passed
+Given login to the application using valid "userName" and "password"........passed
+And verify page title is "My account - My Store"............................passed
+When navigate to my personal information page...............................passed
+Then verify page title is "Identity - My Store".............................passed
+And update "testlastA" in the details section...............................passed
+Then enter old "password"...................................................passed
+And Click on save button....................................................passed
+Then verify "testlastA" got update successfully.............................passed
+]]></system-out>
+</testcase>
+</testsuite>
